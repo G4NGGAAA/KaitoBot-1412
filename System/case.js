@@ -422,7 +422,7 @@ conn.sendMessage(m.chat, {
                         mentionedJid: [sender],
                         forwardedNewsletterMessageInfo: {
                             newsletterName: newsletterName,
-                            newsletterJid: "120363400306866480@newsletter",
+                            newsletterJid: "120363419080558687@newsletter",
                         },
                         externalAdReply: {
                             title: "KAITO-1412",
