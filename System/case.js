@@ -427,7 +427,7 @@ conn.sendMessage(m.chat, {
                         externalAdReply: {
                             title: "KAITO-1412",
                             body: "Script by G4NGGAAA",
-                            thumbnailUrl: `https://o.uguu.se/uUuLMmLA.jpg`,
+                            thumbnailUrl: `https://files.catbox.moe/sxkg9q.jpg`,
                             sourceUrl: "https://github.com/G4NGGAAA",
                             mediaType: 1,
                             renderLargerThumbnail: true
