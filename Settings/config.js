@@ -8,8 +8,8 @@ global.ownername = "G4NGGAAA"
 //===================[ FUNCTION BOT ]=====================\\
 global.botname = "KaitoBot-1412"
 global.botver = "1.0.0"
-global.idch = "120363400306866480@newsletter"
-global.newsletterName = "ɪᴋʏʏᴋᴢʏ || ᴜᴘᴅᴀᴛᴇ"
+global.idch = "120363419080558687@newsletter"
+global.newsletterName = "𝗚𝟰𝗡𝗚𝗚𝗔𝗔𝗔 𝙋𝙍𝙊𝙅𝙀𝘾𝙏"
         //Isi pake id channel kalian
 
 //===================[ FUNCTION STICKER ]=====================\\
