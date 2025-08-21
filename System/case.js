@@ -397,6 +397,9 @@ TYPE: CASE x PLUGIN
 > • clearsession
 > • upch
 
+*乂 MENU TOOLS*
+> • rvo
+
 *乂 MENU PLUGINS*
 > • addplugins
 > • delplugins
@@ -450,6 +453,20 @@ conn.public = true
 m.reply('Sukses Change To Public Mode')
 }
 break
+
+case 'rvo': {
+				if (!m.quoted) return m.reply(Reply view once message\nExample: ${prefix + command})
+				try {
+					if (m.quoted.msg.viewOnce) {
+						delete m.quoted.chat
+						m.quoted.msg.viewOnce = false
+						await m.reply({ forward: m.quoted })
+					} else m.reply(Reply view once message\nExample: ${prefix + command})
+				} catch (e) {
+					m.reply('Media Tidak Valid!')
+				}
+			}
+			break
 
 case 'upchmp3':
 case 'upchaudio': {
